@@ -6,6 +6,7 @@
  */
 
 import { parseArgs } from "util";
+import { determinePageName } from "../src/determine-page-name";
 
 async function setup() {
 
@@ -39,7 +40,7 @@ async function main() {
   const successPages = lines.split("\n").filter((line) => line.includes("success to write"));
   const pages = successPages.map((line) => {
     const replacedLine = line.replace("success to write ", "");
-    return replacedLine.split("/").at(-1)!.replace(".md", "");
+    return determinePageName(replacedLine);
   });
   console.log(pages.join("\n"));
 }
