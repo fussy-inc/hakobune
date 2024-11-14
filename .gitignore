@@ -1,0 +1,6 @@
+data
+.env
+convert-rule.csv
+node_modules
+.idea
+*.log

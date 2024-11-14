@@ -1,0 +1,16 @@
+{
+  "name": "hakobune",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.1.13",
+    "@types/node": "^22.9.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "md2sb": "^5.1.2",
+    "puppeteer": "^23.7.1"
+  }
+}
