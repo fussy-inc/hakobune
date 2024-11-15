@@ -3,6 +3,18 @@ hakobune
 
 Notion から Cosense にデータを。
 
+## 他のツールとの違い
+
+- https://github.com/pastak/scrapbox-converter/tree/master/packages/md2sb
+  - Markdown から Scrapbox記法への変換
+  - このツール内でも使っています
+- https://okweird.net/blog/notion-2-sb/
+  - 単一の Notion ページをmd2sbを使ってページを作成する
+- hakobune(このツール)
+  - Export した Notion のデータすべてを Cosense に書き込む
+    - ✅️ ユーザが指定した文字を変換できる
+    - ✅️ ページの階層構造をフラットにしつつ、ページ間の関連を保つ
+
 ## 必要な設定
 
 - `.env` ファイルを作成し、`COSENSE_CONNECT_SID` を設定する。
