@@ -19,5 +19,7 @@ export default async function writeToCosense(content: Content, sid: string) {
   await page.goto(url.toString());
 
   await new Promise<void>((resolve) => setTimeout(() => resolve(), 1000));
+
+  await page.close();
   await browser.close();
 }
