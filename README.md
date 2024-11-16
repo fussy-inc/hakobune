@@ -3,6 +3,10 @@ hakobune
 
 Notion から Cosense にデータを。
 
+## なぜそもそも公式ツールが存在しないか
+
+[https://scrapbox.io/support-doc-jp/Cosenseへのデータ移行](https://scrapbox.io/support-doc-jp/Cosense%E3%81%B8%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E7%A7%BB%E8%A1%8C) を読むと分かる通り、公式にはかなり非推奨な利用方法です。
+
 ## 他のツールとの違い
 
 - https://github.com/pastak/scrapbox-converter/tree/master/packages/md2sb
